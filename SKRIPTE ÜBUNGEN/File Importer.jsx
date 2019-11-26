@@ -3,7 +3,7 @@ folder = folder.selectDlg ("Select a folder pls");
 
 var files = folder.getFiles();
 
-files = filterFiles(files, ".aep");
+files = filterFiles(files, "mp4");
 
 importFiles(files);
 
